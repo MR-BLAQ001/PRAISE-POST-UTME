@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" fill="none" role="img" aria-label="PRAISE POST UTME — Nigerian CBT practice platform">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#080D28"/>
+      <stop offset="1" stop-color="#05081A"/>
+    </linearGradient>
+    <linearGradient id="brand" x1="80" y1="80" x2="600" y2="560" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#59A6FF"/>
+      <stop offset=".55" stop-color="#1E63F5"/>
+      <stop offset="1" stop-color="#06B6D4"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientTransform="translate(1020 90) rotate(132) scale(640 520)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1E63F5" stop-opacity=".42"/>
+      <stop offset="1" stop-color="#1E63F5" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0V48" stroke="#94A3B8" stroke-opacity=".07"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#glow)"/>
+  <rect width="1200" height="630" fill="url(#grid)"/>
+  <g transform="translate(80 84)">
+    <rect width="76" height="76" rx="20" fill="url(#brand)"/>
+    <path d="M38 18 66 30 38 42 10 30 38 18Z" fill="white"/>
+    <path d="M22 36v14c0 8 8 14 16 14s16-6 16-14V36L38 44 22 36Z" fill="white" fill-opacity=".92"/>
+    <path d="M38 46v18M38 46h10c6 0 10 4 10 9s-4 9-10 9H38" stroke="#0B1236" stroke-width="5" stroke-linecap="round"/>
+  </g>
+  <text x="178" y="128" fill="#FFFFFF" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="30" font-weight="700" letter-spacing="4">PRAISE</text>
+  <text x="178" y="156" fill="#7DD3FC" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="17" font-weight="600" letter-spacing="6">POST UTME</text>
+
+  <text x="80" y="300" fill="#FFFFFF" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="72" font-weight="800" letter-spacing="-2">Your POST-UTME</text>
+  <text x="80" y="382" fill="url(#brand)" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="72" font-weight="800" letter-spacing="-2">breakthrough starts here.</text>
+  <text x="82" y="446" fill="#94A3B8" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="27" font-weight="400">Realistic CBT simulations · 800+ explained questions · 16 subjects</text>
+
+  <g font-family="system-ui, -apple-system, Segoe UI, sans-serif">
+    <rect x="82" y="494" width="244" height="58" rx="14" fill="#1E63F5"/>
+    <text x="204" y="531" text-anchor="middle" fill="#FFFFFF" font-size="22" font-weight="700">Start practising free</text>
+    <rect x="346" y="494" width="264" height="58" rx="14" stroke="#334155" fill="#0B1236" fill-opacity=".7"/>
+    <text x="478" y="531" text-anchor="middle" fill="#CBD5E1" font-size="21" font-weight="600">800+ original questions</text>
+  </g>
+
+  <g transform="translate(760 150)">
+    <rect width="360" height="350" rx="28" fill="#0D142E" stroke="#334155" stroke-opacity=".5"/>
+    <rect x="28" y="30" width="150" height="16" rx="8" fill="#334155"/>
+    <rect x="28" y="62" width="230" height="10" rx="5" fill="#1E293B"/>
+    <rect x="28" y="80" width="180" height="10" rx="5" fill="#1E293B"/>
+    <g transform="translate(28 118)">
+      <rect width="304" height="52" rx="12" fill="#12203F" stroke="#1E63F5" stroke-opacity=".5"/>
+      <circle cx="26" cy="26" r="10" stroke="#59A6FF" stroke-width="2"/>
+      <rect x="48" y="20" width="170" height="11" rx="5" fill="#475569"/>
+    </g>
+    <g transform="translate(28 182)">
+      <rect width="304" height="52" rx="12" fill="#0B1236" stroke="#334155" stroke-opacity=".4"/>
+      <circle cx="26" cy="26" r="10" fill="#1E63F5"/>
+      <rect x="48" y="20" width="206" height="11" rx="5" fill="#64748B"/>
+    </g>
+    <g transform="translate(28 246)">
+      <rect width="304" height="52" rx="12" fill="#0B1236" stroke="#334155" stroke-opacity=".4"/>
+      <circle cx="26" cy="26" r="10" stroke="#475569" stroke-width="2"/>
+      <rect x="48" y="20" width="140" height="11" rx="5" fill="#334155"/>
+    </g>
+    <rect x="244" y="312" width="88" height="18" rx="9" fill="#06B6D4" fill-opacity=".25"/>
+  </g>
+</svg>

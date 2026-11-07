@@ -1,0 +1,50 @@
+{
+  "name": "PRAISE POST UTME — Nigerian CBT Practice",
+  "short_name": "PRAISE POST UTME",
+  "description": "Realistic Nigerian POST-UTME CBT simulations, 800+ explained practice questions across 16 subjects, analytics and leaderboards.",
+  "start_url": "/dashboard",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#05081a",
+  "theme_color": "#1e63f5",
+  "lang": "en-NG",
+  "categories": ["education", "productivity"],
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Quick Practice",
+      "url": "/practice",
+      "description": "Start a short practice session"
+    },
+    {
+      "name": "Full CBT",
+      "url": "/exam",
+      "description": "Take a timed CBT simulation"
+    },
+    {
+      "name": "Dashboard",
+      "url": "/dashboard",
+      "description": "View your performance dashboard"
+    }
+  ]
+}

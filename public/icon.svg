@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" fill="none" role="img" aria-label="PRAISE POST UTME logo">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="512" y2="512" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B1236"/>
+      <stop offset="1" stop-color="#05081A"/>
+    </linearGradient>
+    <linearGradient id="brand" x1="96" y1="96" x2="416" y2="416" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#59A6FF"/>
+      <stop offset=".55" stop-color="#1E63F5"/>
+      <stop offset="1" stop-color="#06B6D4"/>
+    </linearGradient>
+    <linearGradient id="sheen" x1="120" y1="120" x2="380" y2="380" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF" stop-opacity=".9"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity=".15"/>
+    </linearGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="18" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#bg)"/>
+  <circle cx="256" cy="250" r="168" fill="url(#brand)" opacity=".13"/>
+  <circle cx="256" cy="250" r="122" stroke="url(#brand)" stroke-opacity=".35" stroke-width="2"/>
+  <!-- graduation cap -->
+  <path d="M256 146 382 202 256 258 130 202 256 146Z" fill="url(#sheen)"/>
+  <path d="M185 231v52c0 30 32 53 71 53s71-23 71-53v-52l-71 31-71-31Z" fill="url(#brand)" filter="url(#glow)"/>
+  <path d="M382 202v64" stroke="#7DD3FC" stroke-width="12" stroke-linecap="round"/>
+  <circle cx="382" cy="280" r="16" fill="#22D3EE"/>
+  <!-- P monogram -->
+  <path d="M214 300v96" stroke="white" stroke-width="26" stroke-linecap="round"/>
+  <path d="M214 300h48c26 0 46 18 46 42s-20 42-46 42h-48" stroke="white" stroke-width="26" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
